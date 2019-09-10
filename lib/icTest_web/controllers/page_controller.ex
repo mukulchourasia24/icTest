@@ -5,7 +5,7 @@ defmodule IcTestWeb.PageController do
     render conn, "index.html"
   end
 
-
+  @doc"Function for converting numbers to meaningful words"
   def add(conn, params) do
 
     number = params["number"]
